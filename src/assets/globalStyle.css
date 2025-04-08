@@ -26,7 +26,7 @@
 }
 
 body {
-  background-color: rgb(148 163 184);
+  background-color: var(--body-background);
 }
 
 #app {
@@ -36,3 +36,13 @@ body {
   width: 100%;
 }
 
+:root {
+  --border-color: #333;
+  --body-background: rgb(148 163 184);
+  --main-color: #333;
+  --disabled-color: #bbb;
+  --main-background: #fff;
+  --secondary-color: #fff;
+  --secondary-background: cadetblue;
+  ;
+}

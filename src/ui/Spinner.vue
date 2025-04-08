@@ -4,9 +4,7 @@ const props = defineProps<{ isShow: boolean }>()
 
 <template>
   <Teleport to="body">
-    <Transition name="modal">
-      <div className="spinner" v-if="props.isShow" />
-    </Transition>
+    <div class="spinner" v-if="props.isShow" />
   </Teleport>
 </template>
 

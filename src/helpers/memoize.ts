@@ -1,4 +1,4 @@
-const CACHE_LIFETIME = 3600000
+const CACHE_LIFETIME = Infinity
 
 const getCurrentTimestamp = () => new Date().getTime()
 
@@ -24,3 +24,4 @@ export const memoize = <P extends unknown[], R>(
     return value.res
   }
 }
+
